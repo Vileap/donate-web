@@ -1,12 +1,12 @@
 ---
 import { getCollection } from "astro:content";
 import TagPosts from "@layouts/TagPosts.astro";
-import getPostsByTag from "@utils/getPostsByTag";
 import getPagination from "@utils/getPagination";
 import getUniqueTags from "@utils/getUniqueTags";
+import getDonatesByTag from "@utils/donate/getDonatesByTag";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("blog");
+  const posts = await getCollection("donate");
 
   const tags = getUniqueTags(posts);
 
@@ -20,7 +20,7 @@ export async function getStaticPaths() {
 
 const { tag, tagName, posts } = Astro.props;
 
-const postsByTag = getPostsByTag(posts, tag);
+const postsByTag = getDonatesByTag(posts, tag);
 
 const pagination = getPagination({
   posts: postsByTag,

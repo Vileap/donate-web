@@ -51,7 +51,7 @@ Inside of AstroPaper, you'll see the following folders and files:
 │   └── astropaper-og.jpg
 │   └── robots.txt
 │   └── toggle-theme.js
-├── src/
+├── src/****
 │   ├── assets/
 │   │   └── socialIcons.ts
 │   ├── components/

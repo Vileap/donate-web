@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Website Donate Title</h1>
+      <h1 class="text-[#FAB45C]">Website Donate Title</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -64,7 +64,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       featuredDonates.length > 0 && (
         <>
           <section id="featured">
-            <h2>New</h2>
+            <h2>Donor Hub</h2>
             <ul>
               {featuredDonates.map(({ data, slug }) => (
                 <Card

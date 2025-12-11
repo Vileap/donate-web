@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "The Donor Hubs",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "The Donor Hubs",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "datasr.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
