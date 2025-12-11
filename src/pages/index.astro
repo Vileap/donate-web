@@ -68,7 +68,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
             <ul>
               {featuredDonates.map(({ data, slug }) => (
                 <Card
-                  href={`/posts/${slug}/`}
+                  href={`/donates/${slug}/`}
                   frontmatter={data}
                   secHeading={false}
                 />
@@ -83,13 +83,13 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     {
       recentDonates.length > 0 && (
         <section id="recent-posts">
-          <h2>Recent Posts</h2>
+          <h2>Recent Donate</h2>
           <ul>
             {recentDonates.map(
               ({ data, slug }, index) =>
                 index < 4 && (
                   <Card
-                    href={`/posts/${slug}/`}
+                    href={`/donates/${slug}/`}
                     frontmatter={data}
                     secHeading={false}
                   />
