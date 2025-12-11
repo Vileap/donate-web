@@ -1,0 +1,19 @@
+---
+import { getCollection } from "astro:content";
+
+import getSortedDonates from "@utils/donate/getSortedDonates";
+import getPagination from "@utils/getPagination";
+import Donates from "@layouts/donates/Donates.astro";
+
+const donates = await getCollection("donate");
+
+const sortedDonates = getSortedDonates(donates);
+
+const pagination = getPagination({
+  posts: sortedDonates,
+  page: 1,
+  isIndex: true,
+});
+---
+
+<Donates {...pagination} />

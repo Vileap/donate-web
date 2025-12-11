@@ -1,0 +1,42 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+
+import getPageNumbers from "@utils/getPageNumbers";
+import getPagination from "@utils/getPagination";
+import getSortedDonates from "@utils/donate/getSortedDonates";
+import Donates from "@layouts/donates/Donates.astro";
+import DonateDetails from "@layouts/donates/DonateDetails.astro";
+
+export interface Props {
+  donate: CollectionEntry<"donate">;
+}
+
+export async function getStaticPaths() {
+  const donates = await getCollection("donate", ({ data }) => !data.draft);
+
+  const postResult = donates.map(donate => ({
+    params: { slug: donate.slug },
+    props: { donate },
+  }));
+
+  const pagePaths = getPageNumbers(donates.length).map(pageNum => ({
+    params: { slug: String(pageNum) },
+  }));
+
+  return [...postResult, ...pagePaths];
+}
+
+const { slug } = Astro.params;
+const { donate } = Astro.props;
+
+const donates = await getCollection("donate");
+
+const sortedDonates = getSortedDonates(donates);
+
+const pagination = getPagination({
+  posts: sortedDonates,
+  page: slug,
+});
+---
+
+{donate ? <DonateDetails donate={donate} /> : <Donates {...pagination} />}
