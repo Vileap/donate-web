@@ -3,7 +3,7 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
   author: "The Donor Hubs",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "Here are the details on how to donate and a list of supplies we are sending to the conflict zone. A huge thank you to Sarah Wong for this great initiative 🙏 🇰🇭",
   title: "The Donor Hubs",
   ogImage: "datasr.jpg",
   lightAndDarkMode: true,
@@ -32,7 +32,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Facebook",
-    href: "https://www.facebook.com/",
+    href: "https://www.facebook.com/datasrco.kh",
     linkTitle: `${SITE.title} on Facebook`,
     active: true,
   },
@@ -46,25 +46,6 @@ export const SOCIALS: SocialObjects = [
     name: "Mail",
     href: "mailto:yourmail@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
-  },
-  {
-    name: "YouTube",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on YouTube`,
-    active: false,
-  },
-  {
-    name: "WhatsApp",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on WhatsApp`,
-    active: false,
-  },
-
-  {
-    name: "TikTok",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on TikTok`,
     active: false,
   },
   {
