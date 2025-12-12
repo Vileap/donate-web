@@ -26,6 +26,8 @@ description: Well organized and internationally reputable
     > Provides food, drinking water, blankets, mosquito nets and hygiene kits for the whole family.
     
 
+**Contact:** [**Facebook**](https://www.facebook.com/WorldVisionCambodia)
+
 **Location:** [**GIA Tower**](https://maps.app.goo.gl/V3VfCj1b4bhu8V4AA)
 
 ![](/assets/world-vision-cambodia.png)
