@@ -1,5 +1,7 @@
 ---
 author: Ouk Vanday
+pubDatetime: 2025-12-12
+modDatetime: 2025-12-12
 title: Ouk Vanday
 location: phnom penh
 slug: ouk-vanday
@@ -12,24 +14,18 @@ description: "Independent organizer personally delivering donation packages to
   refugee camps that are under-equipped. Collecting and organizing donations in
   Koh Pich. "
 ---
+
 **Independent organizer personally delivering donation packages to refugee camps that are under-equipped. Collecting and organizing donations in Koh Pich.**
 
 **Non Monetary Donations:**
 
 > 1.  Basic Necessities (Water, Medicine, Hygiene Products, Cloths)
->     
 > 2.  Winter Jackets
->     
 > 3.  Canned Fish
->     
 > 4.  Rice
->     
 > 5.  Soy Sauce
->     
 > 6.  Fish Sauce
->     
 > 7.  Packed Noodles
->     
 
 **_DEADLINE: Until Dec. 14th 2025_**
 
