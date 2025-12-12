@@ -36,3 +36,20 @@ description: Recieving donations for the provincial administration.
     
 
 ![](/assets/900-biscuit.webp)
+
+**Date:** December 14th 2025, For Blood donation
+
+> For Blood Donation, only contact through this below
+> 
+> 1.  លោកឱសថការី​ តុប​ វុទ្ធី​ 014999666
+>     
+> 2.  លោកឱសថការី​ ឡេង​ វិសាល 092695973
+>     
+> 3.  លោក​ ជា​ សាកល​ 092248883
+>     
+
+**Location:** [**Google Map**](https://maps.app.goo.gl/ixDRwSVTE58JYojx8)
+
+![](/assets/pursat-envir-qr-verification.jpg)
+
+![](/assets/pursat-envir-qr-code.jpg)
