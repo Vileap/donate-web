@@ -9,7 +9,7 @@ export interface Props {
 }
 
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  const { title, description } = frontmatter;
+  const { title, description, location } = frontmatter;
 
   const headerProps = {
     style: { viewTransitionName: slugifyStr(title) },
@@ -28,6 +28,9 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
           <h3 {...headerProps}>{title}</h3>
         )}
       </a>
+      <p className="md:text-lg text-base font-bold capitalize italic text-[#ecc689]">
+        {location ? location : ""}
+      </p>
       <p>{description}</p>
     </li>
   );
