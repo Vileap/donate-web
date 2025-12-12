@@ -3,11 +3,11 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
   author: "The Donor Hubs",
-  desc: "Here are the details on how to donate and a list of supplies we are sending to the conflict zone. A huge thank you to Sarah Wong for this great initiative 🙏 🇰🇭",
+  desc: "This website is dedicated to supporting innocent families forced to flee the war. Our mission is to provide transparent, immediate assistance to civilians displaced by ongoing conflict. Your donation helps provide safe evacuation, shelter, food, and urgent relief for those who are in urgent need.",
   title: "The Donor Hubs",
   ogImage: "datasr.jpg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 6,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
