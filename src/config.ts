@@ -1,7 +1,7 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "https://donor-hubs.pages.dev/", // replace this with your deployed domain
   author: "The Donor Hubs",
   desc: "This website is dedicated to supporting innocent families forced to flee the war. Our mission is to provide transparent, immediate assistance to civilians displaced by ongoing conflict. Your donation helps provide safe evacuation, shelter, food, and urgent relief for those who are in urgent need.",
   title: "The Donor Hubs",
