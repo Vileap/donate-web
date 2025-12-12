@@ -20,7 +20,7 @@ const recentDonates = sortedDonates.filter(({ data }) => !data.featured);
   <main id="main-content">
     <section id="hero">
       <div class="flex items-center">
-        <h1 class="text-[#FAB45C]">Donor Hubs</h1>
+        <h1 class="text-[#032EA1]">Cambodia Donor Hub</h1>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -52,19 +52,69 @@ const recentDonates = sortedDonates.filter(({ data }) => !data.featured);
 
     <Hr />
 
+    <section class="mt-10">
+      <div>
+        <h2 class="text-lg font-bold text-[#032EA1] sm:text-3xl">Donor Hub</h2>
+      </div>
+      <div class="mt-4">
+        <ul class="grid grid-cols-2 gap-4 sm:grid-cols-5">
+          <li
+            class="flex items-center justify-center rounded-md border-2 p-4 text-center"
+          >
+            <a href={`/tags/phnom-penh/`} class="link-tags">
+              <span class="font-semibold capitalize">Phnom Penh</span>
+            </a>
+          </li>
+          <li
+            class="flex items-center justify-center rounded-md border-2 p-4 text-center"
+          >
+            <a href={`/tags/siem-reap/`} class="link-tags">
+              <span class="font-semibold capitalize">Siem Reap</span>
+            </a>
+          </li>
+
+          <li
+            class="flex items-center justify-center rounded-md border-2 p-4 text-center"
+          >
+            <a href={`/tags/other/`} class="link-tags">
+              <span class="font-semibold capitalize">Other Provinces</span>
+            </a>
+          </li>
+          <li
+            class="flex items-center justify-center rounded-md border-2 p-4 text-center"
+          >
+            <a href={`/tags/international/`} class="link-tags">
+              <span class="font-semibold capitalize"
+                >International Donations</span
+              >
+            </a>
+          </li>
+          <li
+            class="flex items-center justify-center rounded-md border-2 p-4 text-center"
+          >
+            <a href={`/tags/`} class="link-tags">
+              <span class="font-semibold capitalize">All</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
     {
       featuredDonates.length > 0 && (
         <>
           <section id="featured">
-            <h2>Donor Hub</h2>
             <ul>
-              {featuredDonates.map(({ data, slug }) => (
-                <Card
-                  href={`/donates/${slug}/`}
-                  frontmatter={data}
-                  secHeading={false}
-                />
-              ))}
+              {featuredDonates.map(
+                ({ data, slug }, index) =>
+                  index < 4 && (
+                    <Card
+                      href={`/donates/${slug}/`}
+                      frontmatter={data}
+                      secHeading={false}
+                    />
+                  )
+              )}
             </ul>
           </section>
           {recentDonates.length > 0 && <Hr />}
@@ -142,5 +192,9 @@ const recentDonates = sortedDonates.filter(({ data }) => !data.featured);
   }
   .all-posts-btn-wrapper {
     @apply my-8 text-center;
+  }
+
+  .link-tags {
+    @apply relative  hover:-top-0.5 hover:text-skin-accent focus-visible:p-1;
   }
 </style>
