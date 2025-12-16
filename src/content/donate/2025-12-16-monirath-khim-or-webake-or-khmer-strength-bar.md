@@ -3,7 +3,7 @@ author: Monirath Khim | WeBake | Khmer Strength Bar
 pubDatetime: 2025-12-16
 modDatetime: 2025-12-16
 title: Monirath Khim | WeBake | Khmer Strength Bar
-location: Battom bong
+location: phnom penh
 ogImage: /assets/khim-monirath-qr-code.png
 slug: monirath-khim-webake-khmer-strength-bar
 featured: true
