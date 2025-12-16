@@ -2,8 +2,9 @@
 author: Sokh Sotheasey
 pubDatetime: 2025-12-16
 modDatetime: 2025-12-16
-title: Works for provincial office. Fundraising to build bathrooms for refugee camps
+title: Sokh Sotheasey
 location: siem reap
+ogImage: /assets/sokh-sotheasey.png
 slug: sokh-sotheasey
 featured: true
 draft: false
@@ -20,3 +21,5 @@ description: Works for provincial office. Fundraising to build bathrooms for ref
 **Contact:** _Telegram@Sotheasey123_
 
 ![](/assets/sokh-sotheasey.png)
+
+![](/assets/sokh-sotheasey-qr-code.png)
