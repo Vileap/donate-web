@@ -4,6 +4,7 @@ pubDatetime: 2025-12-16
 modDatetime: 2025-12-16
 title: Green Shoots Resouces Organization
 location: oddar meanchey
+ogImage: /assets/jaffery-muneezay-anjum-qr-code.png
 slug: green-shoots-resouces-organization
 featured: true
 draft: false
@@ -27,7 +28,12 @@ Working with nearly 70 highschool students and 150 farmers through a local coope
     > All Donations will be distributed to all families in need in nearby refugee camps
     
 
-## Contact: Mr Kimnouem Heng (+855 12 424 971)  
-Conact: Ms Muneezay Jaffery (Telegram: +855 96 5884 729)
+## **Contact: Mr Kimnouem Heng (+855 12 424 971)**
 
-### **Location:** Samraong Town/ Bosbov Commune, Oddar Meanchey Province
+## **Conact: Ms Muneezay Jaffery (Telegram: +855 96 5884 729)**
+
+## **Location:** Samraong Town/ Bosbov Commune, Oddar Meanchey Province
+
+> # **For Uk Donation visit:** [Greenshootsfoundation.org](https://greenshootsfoundation.org/support-us/donations/)
+
+![](/assets/jaffery-muneezay-anjum-qr-code.png)
